@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 function Project(props) {
     return ( 
-        <button>Project {props.value}</button>
+        <button>{props.project.name}</button>
     );
 }
  

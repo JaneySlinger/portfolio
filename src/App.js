@@ -3,16 +3,9 @@ import './App.css';
 import Header from './Header.js';
 import Socials from './Socials.js';
 import ProjectGrid from './ProjectGrid.js';
+import data from './ProjectData';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      number_of_projects: 9,
-    };
-    }
-  
-
   render() { 
     return (
       <div>
@@ -20,7 +13,9 @@ class App extends Component {
         <Socials/>
         <Header/>
         </div>
-        <ProjectGrid/>
+        <ProjectGrid
+          data={data}
+        />
       </div>
       
       );
