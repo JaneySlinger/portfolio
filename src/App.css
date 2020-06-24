@@ -5,8 +5,9 @@
 
 .Socials {
   text-align: center;
-  color: white;
+  color: #123C69;
   margin: 0;
+  font-size: larger;
   
 }
 .social {
@@ -16,7 +17,7 @@
 
 .header {
   text-align: center;
-  color: white;
+  color: #AC3B61;
 }
 
 

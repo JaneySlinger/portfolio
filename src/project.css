@@ -1,13 +1,18 @@
 .projectImage {
     height: 250px;
     width: 350px;
+    margin-top: 4px;
 }
 
 .projectBtn {
     border-style: none;
-    background-color: #A8D0E6;
+    background-color: #EDC7B7;
     float: center;
     text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: #AC3B61;
+    font-size: large;
 }
 
 .grid {
