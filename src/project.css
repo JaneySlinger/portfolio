@@ -1,0 +1,16 @@
+.projectImage {
+    height: 150px;
+    width: 250px;
+}
+
+.projectBtn {
+    border-style: none;
+    background-color: #A8D0E6;
+    float: center;
+    text-align: center;
+}
+
+.grid {
+    margin-top: 1%;
+    text-align: center;
+  }

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import Header from './Header.js';
 import Socials from './Socials.js';
 import ProjectGrid from './ProjectGrid.js';
 import data from './ProjectData';
@@ -9,13 +8,13 @@ class App extends Component {
   render() { 
     return (
       <div>
-        <div>
-        <Socials/>
-        <Header/>
+        <div> 
+          <h1 className="header">Janey Slinger Portfolio</h1>
+          <Socials/>
         </div>
-        <ProjectGrid
-          data={data}
-        />
+        <div>
+          <ProjectGrid data={data}/>
+        </div>
       </div>
       
       );

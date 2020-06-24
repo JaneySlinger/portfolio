@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
+import './App.css';
 
 class Socials extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <ul>
-                    <li>Twitter</li>
-                    <li>Linkedin</li>
-                    <li>Github</li>
-                </ul>
+            <div className="Socials">
+                <p className="social">janeyslinger@gmail.com</p>
+                <p className="social">Twitter</p>
+                <p className="social">Linkedin</p>
+                <p className="social">Github</p>
             </div>
          );
     }
