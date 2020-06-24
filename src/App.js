@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Socials from './Socials.js';
+import ProjectGrid from './ProjectGrid.js';
+import data from './ProjectData';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() { 
+    return (
+      <div>
+        <div> 
+          <h1 className="header">Janey Slinger Portfolio</h1>
+          <Socials/>
+        </div>
+        <div>
+          <ProjectGrid data={data}/>
+        </div>
+      </div>
+      
+      );
+  }
 }
-
+ 
 export default App;
