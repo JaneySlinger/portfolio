@@ -5,7 +5,7 @@ class ProjectGrid extends Component {
     render() { 
         let items = this.props.data.projects
         return (  
-            <div className="grid">
+            <div>
                 {items.map(item => <Project key={item.name} project={item}/>)}
             </div>
         );

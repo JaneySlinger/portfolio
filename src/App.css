@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: white;
+  background-color: #EEE2DC;
 }
 
 .Socials {
@@ -19,6 +19,18 @@
   text-align: center;
   color: #AC3B61;
 }
+
+.cardContent {
+  text-align: center;
+}
+
+.content {
+  padding: 2% 10% 5% 10%;
+}
+
+
+
+
 
 
 
