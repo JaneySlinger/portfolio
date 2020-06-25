@@ -9,13 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   render() { 
     return (
-      <div>
+      <div className="App">
         <div> 
           <h1 className="header">Janey Slinger Portfolio</h1>
           <Socials/>
         </div>
         <div>
-        <CardColumns >
+        <CardColumns className="content">
           <ProjectGrid data={data}/>
         </CardColumns> 
         </div>

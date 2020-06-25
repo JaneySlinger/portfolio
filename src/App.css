@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: white;
+  background-color: #EEE2DC;
 }
 
 .Socials {
@@ -20,40 +20,17 @@
   color: #AC3B61;
 }
 
-.card {
-  background-color: #EDC7B7;
+.cardContent {
   text-align: center;
-  border-color: #BAB2B5;
-  border-style: solid;
-  border-width: 2px;
-  margin: 1%;
-
 }
 
-.cardImage {
-  width: 96%;
-  padding: 2%;
+.content {
+  padding: 2% 10% 5% 10%;
 }
 
-.description {
-  padding-bottom: 1%;
-}
 
-.cardFooter {
-  background-color: #BAB2B5;
-  border-style: solid;
-  border-color: #BAB2B5;
-}
 
-.codeButton {
-  margin: 2%;
-  width: 50%;
-  background-color: #AC3B61;
-  color: white;
-  padding: 2%;
-  border-style: none;
-  border-radius: 5px;
-}
+
 
 
 

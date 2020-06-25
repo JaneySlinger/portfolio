@@ -1,22 +1,22 @@
 import React from 'react';
-import './project.css';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import './App.css';
 
 function Project(props) {
     return ( 
-        <Card>
+        <Card style={{border: '2px solid #BAB2B5'}}>
             <Card.Img variant="top" src={require("" + props.project.img)}/>
-            <Card.Body > 
+            <Card.Body className="cardContent"> 
               <Card.Title >{props.project.name}</Card.Title>
               <Card.Subtitle>Python</Card.Subtitle>
               <Card.Text>
                 {props.project.description}
               </Card.Text>
-              <Button href={props.project.url}>View Code</Button>
               <Card.Footer>
-                <p>tags</p>
+              <Button style={{backgroundColor: '#AC3B61', border: '2px solid #AC3B61', color: 'white', borderRadius: '3px', textTransform: 'uppercase'}} href={props.project.url}>View Code</Button>
               </Card.Footer>
+              
             </Card.Body>
           </Card>
     );
