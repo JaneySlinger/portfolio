@@ -3,6 +3,10 @@
   background-color: #EEE2DC;
 }
 
+.title {
+  padding-top: 1%;
+}
+
 .Socials {
   text-align: center;
   color: #123C69;
@@ -27,6 +31,12 @@
 .content {
   padding: 2% 10% 5% 10%;
 }
+
+a {
+  text-decoration: none !important;
+  color: #123C69 !important; 
+}
+
 
 
 
