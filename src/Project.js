@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import './App.css';
+import MoreButton from './MoreButton';
 
 function Project(props) {
     return ( 
@@ -14,7 +14,7 @@ function Project(props) {
                 {props.project.description}
               </Card.Text>
               <Card.Footer>
-              <Button style={{backgroundColor: '#AC3B61', border: '2px solid #AC3B61', color: 'white', borderRadius: '3px', textTransform: 'uppercase'}} href={props.project.url}>View Code</Button>
+                <MoreButton url={props.project.url} available={props.project.available}/>
               </Card.Footer>
             </Card.Body>
           </Card>
