@@ -10,10 +10,10 @@ class Socials extends Component {
             <div className="Socials">
                 <p className="social">janeyslinger@gmail.com</p>
                 <p className="social">
-                    <a className="social" href="https://www.linkedin.com/in/janey-slinger-18865b151">LinkedIn</a>
+                    <a className="socialButton" href="https://www.linkedin.com/in/janey-slinger-18865b151">LinkedIn</a>
                 </p>
                 <p className="social">
-                    <a className="social" href="https://github.com/janeyslinger">Github</a>
+                    <a className="socialButton" href="https://github.com/janeyslinger">Github</a>
                 </p>
                 
             </div>

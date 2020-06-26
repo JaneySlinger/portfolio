@@ -32,9 +32,9 @@
   padding: 2% 10% 5% 10%;
 }
 
-a {
-  text-decoration: none !important;
-  color: #123C69 !important; 
+.socialButton {
+  text-decoration: none;
+  color: #123C69; 
 }
 
 
